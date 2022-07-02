@@ -1,0 +1,45 @@
+// --------margin 
+
+@for $i from 1 through 40{
+    .mt-#{5 * $i}{
+        margin-top: 5 * $i;
+    }
+}
+@for $i from 1 through 40{
+    .mr-#{5 * $i}{
+        margin-right: 5 * $i;
+    }
+}
+@for $i from 1 through 40{
+    .mb-#{5 * $i}{
+        margin-bottom: 5 * $i;
+    }
+}
+@for $i from 1 through 40{
+    .ml-#{5 * $i}{
+        margin-left: 5 * $i;
+    }
+}
+
+// --------padding 
+
+@for $i from 1 through 40{
+    .pt-#{5 * $i}{
+        padding-top: 5 * $i;
+    }
+}
+@for $i from 1 through 40{
+    .pr-#{5 * $i}{
+        padding-right: 5 * $i;
+    }
+}
+@for $i from 1 through 40{
+    .pb-#{5 * $i}{
+        padding-bottom: 5 * $i;
+    }
+}
+@for $i from 1 through 40{
+    .pl-#{5 * $i}{
+        padding-left: 5 * $i;
+    }
+}

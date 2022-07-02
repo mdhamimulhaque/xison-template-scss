@@ -1,0 +1,112 @@
+@use "./variables" as *;
+@use "./loops" as *;
+@use "./mixin" as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+body {
+	 font-family: $poppins; 
+	font-weight: normal;
+	font-style: normal;
+	color:$gray;
+}
+
+.img,img{
+    max-width:100%;
+    @include transition(.3s);
+}
+
+a{
+    text-decoration:none;
+    @include transition(.3s);
+}
+
+
+li{
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $poppins;
+	font-weight: normal;
+	color: $primary-color;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: normal;
+    a{
+        color: inherit;
+    }
+}
+
+
+h1 {
+	font-size: 80px;
+}
+h2 {
+	font-size: 62px;
+}
+h3 {
+	font-size: 46px;
+}
+h4 {
+	font-size: 36px;
+}
+h5 {
+	font-size: 28px;
+}
+h6 {
+	font-size: 20px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+    font-size: 15px;
+	font-weight: normal;
+	line-height: 27px;
+	color:$p-color;
+	margin-bottom: 15px;
+}
+
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: $p-color;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+*::-moz-selection {
+	background-color:$primary-color;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background-color: $primary-color;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background-color: $primary-color;
+	color: #fff;
+	text-shadow: none;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 15px;
+    padding-left: 15px;
+}

@@ -1,0 +1,39 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/loops" as *;
+@use "../abstracts/mixin" as *;
+@use "../components/header" as *;
+
+
+
+/* --------header slider start -------*/
+.slider_bg{
+	background-color: $slider-bg-color;
+}
+.slider_height{
+	min-height: 950px;
+}
+.slider_text{
+    h2 {
+        margin-bottom: 22px;
+        span{
+            color:$secondary-color;
+            display: block;
+            padding-top: 130px;
+        }
+      }
+    p {
+        margin-bottom: 45px;
+    }
+  a{  
+    @include common-btn($white,$secondary-color,$secondary-color);
+    &:hover{
+        color:$primary-color;
+        background-color: transparent;
+    }
+  }
+
+}
+
+
+
+/* -------- banner end -------*/
