@@ -15,7 +15,10 @@
   -ms-transform: $value;
   -o-transform: $value;
 }
-@mixin common-btn($color,$bg-color,$btn-border){
+
+// ----buttons
+
+@mixin common-btn($color,$bg-color,$border,$hover-bg,$hover-text){
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
@@ -25,22 +28,20 @@
     padding: 15px 25px;
     text-align: center;
     text-transform: uppercase;
-    border: 1px solid $btn-border;
+    border: 1px solid $border;
     border-radius: 50px;
-    background-color: $bg-color;
+    background-color:$bg-color;
     @include transition(.3s);
     a{
         color:$color;
-    }
-    
+    } 
     &:hover{
-        background-color:$btn-border;
+        background-color:$hover-bg;
     }
-     
     &:hover a{
-        color:$white;
-    }
-
-    
-    
+    color:$hover-text;
 }
+}
+
+
+ 

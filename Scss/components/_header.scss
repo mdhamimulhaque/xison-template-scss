@@ -80,7 +80,7 @@
 }
 
 .header_btn{
-  @include common-btn($primary-color,transparent,$secondary-color);
+  @include common-btn($primary-color, transparent, $secondary-color, $secondary-color, $white);
 }
 
-/* -------- header end ------- */
+// -------- header end ------- 
