@@ -1,0 +1,8 @@
+@use "../abstracts/variables" as *;
+
+.section_title{
+   color:$primary-color;
+   font-size: 45px;
+   font-weight: 600;
+   line-height: 50px;
+}
