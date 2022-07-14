@@ -1412,6 +1412,35 @@ label {
   line-height: 50px;
 }
 
+.slider_btn {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 15px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #00c867;
+  border-radius: 50px;
+  background-color: #00c867;
+  transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+}
+.slider_btn a {
+  color: #fff;
+}
+.slider_btn:hover {
+  background-color: transparent;
+}
+.slider_btn:hover a {
+  color: #1c3354;
+}
+
 /* --------- header start------------*/
 .header_transparent {
   position: absolute;
@@ -1534,38 +1563,10 @@ label {
 .slider_text p {
   margin-bottom: 45px;
 }
-.slider_text .slider_btn {
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  line-height: 1;
-  padding: 15px 25px;
-  text-align: center;
-  text-transform: uppercase;
-  border: 1px solid #00c867;
-  border-radius: 50px;
-  background-color: #00c867;
-  transition: all 0.3s linear 0s;
-  -webkit-transition: all 0.3s linear 0s;
-  -moz-transition: all 0.3s linear 0s;
-  -ms-transition: all 0.3s linear 0s;
-  -o-transition: all 0.3s linear 0s;
-}
-.slider_text .slider_btn a {
-  color: #fff;
-}
-.slider_text .slider_btn:hover {
-  background-color: transparent;
-}
-.slider_text .slider_btn:hover a {
-  color: #1c3354;
-}
 
 /* -------- banner end -------*/
 .how_it_work .container {
-  width: 1040px;
+  width: 1622px;
 }
 
 .content_card_box {
@@ -1594,6 +1595,20 @@ label {
   position: absolute;
   bottom: 4px;
   right: -16px;
+}
+
+.access_platform_text_area .assess_title {
+  margin: 30px 0px 23px;
+  line-height: 52px;
+}
+.access_platform_text_area .assess_subtitle {
+  margin-bottom: 45px;
+}
+
+.software_feature_box {
+  box-shadow: none;
+  text-align: center;
+  padding-top: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

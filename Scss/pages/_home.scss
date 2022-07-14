@@ -24,9 +24,6 @@
     p {
         margin-bottom: 45px;
       }
-    .slider_btn{
-        @include common-btn($white, $secondary-color, $secondary-color, transparent, $primary-color);
-    }
 }
 
 
@@ -35,7 +32,7 @@
 //------------ how it works start -----
 .how_it_work{
   .container{
-    width: 1040px;
+    width: 1622px;
   }
 }
 
@@ -66,3 +63,25 @@
     right: -16px;
   }
  }
+
+//  --------- how it works end -----------
+//  --------- access area start -----------
+.access_platform_text_area{
+  .assess_title {
+    margin: 30px 0px 23px;
+    line-height: 52px;
+  }
+  .assess_subtitle {
+    margin-bottom: 45px;
+}
+}
+
+// -------- access area end ----------
+// -------- software feature start ----------
+.software_feature_box {
+  box-shadow: none;
+  text-align: center;
+  padding-top: 0;
+}
+// -------- software feature end ----------
+

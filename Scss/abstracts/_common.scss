@@ -1,8 +1,15 @@
 @use "../abstracts/variables" as *;
+@use "../abstracts/mixin" as *;
 
 .section_title{
    color:$primary-color;
    font-size: 45px;
    font-weight: 600;
    line-height: 50px;
+
+}
+
+
+.slider_btn{
+    @include common-btn($white, $secondary-color, $secondary-color, transparent, $primary-color);
 }
