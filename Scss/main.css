@@ -1405,6 +1405,10 @@ label {
   padding-left: 15px;
 }
 
+.how_it_work .container, .access_platform_area .container, .effort_manage_area .container {
+  width: 1140px;
+}
+
 .section_title {
   color: #1c3354;
   font-size: 45px;
@@ -1565,10 +1569,6 @@ label {
 }
 
 /* -------- banner end -------*/
-.how_it_work .container {
-  width: 1622px;
-}
-
 .content_card_box {
   padding: 50px 44px 44px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -1609,6 +1609,14 @@ label {
   box-shadow: none;
   text-align: center;
   padding-top: 0;
+  padding: 0 15px;
+}
+
+.effort_manage_text_area .effort_manage_title {
+  margin: 32px 0 22px;
+}
+.effort_manage_text_area .effort_manage_subtitle {
+  margin-bottom: 42px;
 }
 
 /*# sourceMappingURL=main.css.map */

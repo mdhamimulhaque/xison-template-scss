@@ -30,11 +30,7 @@
 /* -------- banner end -------*/
 
 //------------ how it works start -----
-.how_it_work{
-  .container{
-    width: 1622px;
-  }
-}
+
 
 .content_card_box{
   padding: 50px 44px 44px;
@@ -82,6 +78,17 @@
   box-shadow: none;
   text-align: center;
   padding-top: 0;
+  padding: 0 15px;
 }
+
+.effort_manage_text_area{
+  .effort_manage_title {
+    margin: 32px 0 22px;
+  }
+  .effort_manage_subtitle {
+    margin-bottom: 42px;
+  }
+}
+
 // -------- software feature end ----------
 
