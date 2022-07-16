@@ -2,11 +2,6 @@
 @use "../abstracts/mixin" as *;
 
 
-.how_it_work,.access_platform_area,.effort_manage_area{
-   .container{
-      width: 1140px;
-   }
-}
 
 .section_title{
    color:$primary-color;

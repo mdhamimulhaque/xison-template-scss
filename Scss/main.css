@@ -1405,10 +1405,6 @@ label {
   padding-left: 15px;
 }
 
-.how_it_work .container, .access_platform_area .container, .effort_manage_area .container {
-  width: 1140px;
-}
-
 .section_title {
   color: #1c3354;
   font-size: 45px;
@@ -1597,6 +1593,10 @@ label {
   right: -16px;
 }
 
+.access_platform_img_area {
+  margin-left: -242px;
+}
+
 .access_platform_text_area .assess_title {
   margin: 30px 0px 23px;
   line-height: 52px;
@@ -1617,6 +1617,15 @@ label {
 }
 .effort_manage_text_area .effort_manage_subtitle {
   margin-bottom: 42px;
+}
+
+.effort_manage_img_area {
+  margin-right: -242px;
+}
+
+.plan_box_area {
+  border: 1px solid #eaecee;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

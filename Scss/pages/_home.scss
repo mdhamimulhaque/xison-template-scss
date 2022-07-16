@@ -62,6 +62,9 @@
 
 //  --------- how it works end -----------
 //  --------- access area start -----------
+.access_platform_img_area {
+  margin-left: -242px;
+}
 .access_platform_text_area{
   .assess_title {
     margin: 30px 0px 23px;
@@ -90,5 +93,14 @@
   }
 }
 
-// -------- software feature end ----------
+.effort_manage_img_area{
+  margin-right:-242px;
+}
 
+// -------- software feature end ----------
+// -------- choose your plan start ----------
+.plan_box_area {
+  border: 1px solid #eaecee;
+  text-align: center;
+}
+// -------- choose your plan end ----------
