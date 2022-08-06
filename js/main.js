@@ -68,7 +68,7 @@
 
 
 	// owlCarousel
-	$('.owl-carousel').owlCarousel({
+	$('.testiminial-active').owlCarousel({
 		loop: true,
 		margin: 0,
 		items: 1,
@@ -84,6 +84,27 @@
 			},
 			992: {
 				items: 1
+			}
+		}
+	})
+
+	// owlCarousel for brand
+	$('.brands_box').owlCarousel({
+		loop: true,
+		margin: 0,
+		items: 1,
+		navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+		nav: false,
+		dots: false,
+		responsive: {
+			0: {
+				items: 1
+			},
+			767: {
+				items: 3
+			},
+			992: {
+				items: 5
 			}
 		}
 	})

@@ -1703,4 +1703,9 @@ button.owl-dot.active {
   background: #00c867;
 }
 
+.owl-carousel .owl-item img {
+  display: block;
+  width: auto;
+}
+
 /*# sourceMappingURL=main.css.map */

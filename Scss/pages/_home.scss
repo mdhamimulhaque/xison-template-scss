@@ -191,3 +191,10 @@ ul{
 button.owl-dot.active {
   background: $secondary-color;
 }
+
+//------------- barans ----------------
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}
