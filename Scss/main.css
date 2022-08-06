@@ -1672,4 +1672,35 @@ label {
   color: #00c867;
 }
 
+.testimonial_img_box img {
+  margin-left: -50px;
+}
+
+.testimonial_text_box span {
+  font-size: 14px;
+}
+.testimonial_text_box span strong {
+  font-size: 22px;
+  color: #1c3354;
+}
+.testimonial_text_box p {
+  margin: 30px 0;
+}
+
+.owl-carousel button.owl-dot {
+  background: #d3d8dd;
+  height: 5px;
+  width: 20px;
+  margin: 60px 10px 0 0;
+  transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+}
+
+button.owl-dot.active {
+  background: #00c867;
+}
+
 /*# sourceMappingURL=main.css.map */
