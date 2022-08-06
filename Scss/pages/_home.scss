@@ -198,3 +198,24 @@ button.owl-dot.active {
     display: block;
     width: auto;
 }
+
+// -------- email form -----------
+.form_area {
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  input[type="email"] {
+    height: 70px;
+    width: 75%;
+    border: 1px solid #7e7e7e;
+    padding-left: 20px;
+    outline: none;
+  }
+  .submit{
+    height: 70px;
+    width: 20%;
+    background-color: $secondary-color;
+    color:$white;
+    border:none;
+  }
+}
