@@ -5,6 +5,7 @@
 
 
 
+
 /* --------header slider start -------*/
 .slider_bg{
 	background-color: $slider-bg-color;
@@ -218,4 +219,52 @@ button.owl-dot.active {
     color:$white;
     border:none;
   }
+}
+
+
+// --------- footer ------------
+
+footer{
+  background-color: $price-box;
+  .footer_logo {
+    margin-bottom: 26px;
+}
+ p {
+  margin-bottom: 30px;
+  padding-right: 5px;
+}
+.footer_icon_box {
+  .icon {
+    width: 35px;
+    height: 35px;
+    background-color: $gray;
+    display: inline-block;
+    font-size: 22px;
+    color: $white;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    @include transition(.3s);
+    &:hover{
+      background: $secondary-color;
+    }
+  }
+}
+  .footer_title {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+ul{
+  li{
+    margin-bottom: 10px;
+    a{
+      color:$gray;
+      &:hover{
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
 }

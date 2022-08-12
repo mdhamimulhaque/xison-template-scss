@@ -1628,6 +1628,12 @@ label {
   text-align: center;
 }
 
+.price_hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
 .plan_box_header img {
   margin: 30px 0 20px;
 }
@@ -1641,9 +1647,89 @@ label {
   margin-bottom: 35px;
   font-weight: 600;
 }
+.plan_box_body .price .price_text {
+  color: #7e7e7e;
+  font-size: 18px;
+}
 .plan_box_body ul li {
   font-size: 15px;
   margin-bottom: 22px;
+}
+
+.plan_box_area footer {
+  padding-bottom: 35px;
+}
+.plan_box_area footer a {
+  color: #1c3354;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.plan_box_area footer a.active {
+  color: #00c867;
+}
+.plan_box_area:hover footer a {
+  color: #00c867;
+}
+
+.testimonial_img_box img {
+  margin-left: -50px;
+}
+
+.testimonial_text_box span {
+  font-size: 14px;
+}
+.testimonial_text_box span strong {
+  font-size: 22px;
+  color: #1c3354;
+}
+.testimonial_text_box p {
+  margin: 30px 0;
+}
+
+.owl-carousel button.owl-dot {
+  background: #d3d8dd;
+  height: 5px;
+  width: 20px;
+  margin: 60px 10px 0 0;
+  transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+}
+
+button.owl-dot.active {
+  background: #00c867;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: auto;
+}
+
+.form_area {
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+.form_area input[type=email] {
+  height: 70px;
+  width: 75%;
+  border: 1px solid #7e7e7e;
+  padding-left: 20px;
+  outline: none;
+}
+.form_area .submit {
+  height: 70px;
+  width: 20%;
+  background-color: #00c867;
+  color: #fff;
+  border: none;
+}
+
+footer .footer_title {
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=main.css.map */
