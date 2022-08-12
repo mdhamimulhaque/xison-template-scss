@@ -10,16 +10,18 @@
 .slider_bg{
 	background-color: $slider-bg-color;
 }
-.slider_height{
-	min-height: 950px;
-}
+
 .slider_text{
+  padding-top: 130px;
+  @media #{$xl}{
+    padding-top: 0;
+  }
     h2 {
         margin-bottom: 22px;
         span{
             color:$secondary-color;
             display: block;
-            padding-top: 130px;
+            
         }
       }
     p {
@@ -65,6 +67,10 @@
 //  --------- access area start -----------
 .access_platform_img_area {
   margin-left: -242px;
+  @media #{$xxl}{
+    margin-left: 0px;
+    margin-right: 50px;
+  }
 }
 .access_platform_text_area{
   .assess_title {
@@ -96,6 +102,9 @@
 
 .effort_manage_img_area{
   margin-right:-242px;
+  @media #{$xxl}{
+      margin-right: -90px;
+  }
 }
 
 // -------- software feature end ----------
@@ -107,9 +116,9 @@
 // -------- choose your plan end ----------
 
 .price_hr{
-       height: 1px;
-        background-color: #ccc;
-        border: none;
+  background-color: #ccc;
+  border: none;
+  margin: 40px;
 }
 
 .plan_box_header {
@@ -143,8 +152,8 @@ ul{
 
 
 .plan_box_area {
-  footer{
-    padding-bottom: 35px;
+  .price_footer{
+    padding: 35px 0;
     a{
       color:$primary-color;
       font-size: 13px;
@@ -156,7 +165,7 @@ ul{
     }
   }
   
-  &:hover footer a{
+  &:hover .price_footer a{
     color:$secondary-color;
   }
 }

@@ -1336,7 +1336,7 @@ h1 {
 }
 
 h2 {
-  font-size: 62px;
+  font-size: 55px;
 }
 
 h3 {
@@ -1548,17 +1548,20 @@ label {
   background-color: #f5f8fa;
 }
 
-.slider_height {
-  min-height: 950px;
+.slider_text {
+  padding-top: 130px;
 }
-
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .slider_text {
+    padding-top: 0;
+  }
+}
 .slider_text h2 {
   margin-bottom: 22px;
 }
 .slider_text h2 span {
   color: #00c867;
   display: block;
-  padding-top: 130px;
 }
 .slider_text p {
   margin-bottom: 45px;
@@ -1596,6 +1599,12 @@ label {
 .access_platform_img_area {
   margin-left: -242px;
 }
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .access_platform_img_area {
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+}
 
 .access_platform_text_area .assess_title {
   margin: 30px 0px 23px;
@@ -1622,6 +1631,11 @@ label {
 .effort_manage_img_area {
   margin-right: -242px;
 }
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .effort_manage_img_area {
+    margin-right: -90px;
+  }
+}
 
 .plan_box_area {
   border: 1px solid #eaecee;
@@ -1629,9 +1643,9 @@ label {
 }
 
 .price_hr {
-  height: 1px;
   background-color: #ccc;
   border: none;
+  margin: 40px;
 }
 
 .plan_box_header img {
@@ -1656,19 +1670,19 @@ label {
   margin-bottom: 22px;
 }
 
-.plan_box_area footer {
-  padding-bottom: 35px;
+.plan_box_area .price_footer {
+  padding: 35px 0;
 }
-.plan_box_area footer a {
+.plan_box_area .price_footer a {
   color: #1c3354;
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 600;
 }
-.plan_box_area footer a.active {
+.plan_box_area .price_footer a.active {
   color: #00c867;
 }
-.plan_box_area:hover footer a {
+.plan_box_area:hover .price_footer a {
   color: #00c867;
 }
 
