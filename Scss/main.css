@@ -1739,7 +1739,16 @@ button.owl-dot.active {
   width: 20%;
   background-color: #00c867;
   color: #fff;
-  border: none;
+  border: 1px solid #00c867;
+  transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+}
+.form_area .submit:hover {
+  background: transparent;
+  color: #00c867;
 }
 
 footer {
