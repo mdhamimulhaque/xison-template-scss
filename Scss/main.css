@@ -1407,7 +1407,7 @@ label {
 
 .section_title {
   color: #1c3354;
-  font-size: 45px;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 50px;
 }
@@ -1551,9 +1551,9 @@ label {
 .slider_text {
   padding-top: 130px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider_text {
-    padding-top: 0;
+    padding-top: 50px;
   }
 }
 .slider_text h2 {
@@ -1605,6 +1605,11 @@ label {
     margin-right: 50px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .access_platform_img_area {
+    margin-left: 0px;
+  }
+}
 
 .access_platform_text_area .assess_title {
   margin: 30px 0px 23px;
@@ -1612,6 +1617,11 @@ label {
 }
 .access_platform_text_area .assess_subtitle {
   margin-bottom: 45px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .access_platform_text_area {
+    margin-left: 70px;
+  }
 }
 
 .software_feature_box {
@@ -1634,6 +1644,17 @@ label {
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .effort_manage_img_area {
     margin-right: -90px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .effort_manage_img_area {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .effort_manage_text_area {
+    margin-right: 70px;
   }
 }
 
@@ -1689,6 +1710,16 @@ label {
 .testimonial_img_box img {
   margin-left: -50px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .testimonial_img_box img {
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .testimonial_img_box img {
+    margin-left: 8px;
+  }
+}
 
 .testimonial_text_box span {
   font-size: 14px;
@@ -1726,6 +1757,11 @@ button.owl-dot.active {
   width: 750px;
   margin: 0 auto;
   text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .form_area {
+    width: 100%;
+  }
 }
 .form_area input[type=email] {
   height: 70px;
@@ -1783,7 +1819,7 @@ footer .footer_icon_box .icon:hover {
 }
 footer .footer_title {
   font-size: 22px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 footer ul li {
   margin-bottom: 10px;

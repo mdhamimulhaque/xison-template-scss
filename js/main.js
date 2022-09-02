@@ -67,8 +67,8 @@
 	mainSlider();
 
 
-	// owlCarousel
-	$('.testiminial-active').owlCarousel({
+	// Testimonial
+	$('.testimonial-active').owlCarousel({
 		loop: true,
 		margin: 0,
 		items: 1,
@@ -80,7 +80,7 @@
 				items: 1
 			},
 			767: {
-				items: 3
+				items: 2
 			},
 			992: {
 				items: 1
@@ -88,7 +88,7 @@
 		}
 	})
 
-	// owlCarousel for brand
+	//  brand
 	$('.brands_box').owlCarousel({
 		loop: true,
 		margin: 0,
@@ -98,7 +98,10 @@
 		dots: false,
 		responsive: {
 			0: {
-				items: 1
+				items: 2
+			},
+			556: {
+				items: 3
 			},
 			767: {
 				items: 3

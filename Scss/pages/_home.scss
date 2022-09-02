@@ -13,9 +13,10 @@
 
 .slider_text{
   padding-top: 130px;
-  @media #{$xl}{
-    padding-top: 0;
+  @media #{$md}{
+    padding-top: 50px;
   }
+
     h2 {
         margin-bottom: 22px;
         span{
@@ -71,6 +72,9 @@
     margin-left: 0px;
     margin-right: 50px;
   }
+  @media #{$xl,$lg,$md,$xs}{
+    margin-left: 0px;
+  }
 }
 .access_platform_text_area{
   .assess_title {
@@ -79,6 +83,9 @@
   }
   .assess_subtitle {
     margin-bottom: 45px;
+}
+@media #{$xl}{
+  margin-left: 70px;
 }
 }
 
@@ -105,6 +112,15 @@
   @media #{$xxl}{
       margin-right: -90px;
   }
+  @media #{$xl,$lg,$md,$xs}{
+    margin-right: 0px;
+}
+}
+
+.effort_manage_text_area {
+  @media #{$xl}{
+    margin-right: 70px;
+}
 }
 
 // -------- software feature end ----------
@@ -174,6 +190,12 @@ ul{
 
 .testimonial_img_box img {
   margin-left: -50px;
+  @media #{$xl}{
+    margin-left: 0px;
+}
+@media #{$lg,$md,$xs}{
+  margin-left: 8px;
+}
 }
 
   .testimonial_text_box {
@@ -212,6 +234,9 @@ button.owl-dot.active {
 // -------- email form -----------
 .form_area {
   width: 750px;
+  @media #{$md,$xs}{
+    width: 100%;
+  }
   margin: 0 auto;
   text-align: center;
   input[type="email"] {
@@ -267,7 +292,7 @@ footer{
 }
   .footer_title {
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 ul{
   li{
